@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+</head>
+<body>
+    <!-- <button id = "ledon" onclick = "startservo()" class = "ledon">Led on</button> -->
+    <!-- <button id = "ledoff" onclick = "stopservo()" class = "ledoff">Led off</button> -->
+    <!-- <canvas id = "canvas" width = "360" height="360" style = "outline:black 3px solid;"></canvas> -->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.0.4/jscolor.js"></script>
+    <h1>Color:</h1><input class = "jscolor" id = "rgb">
+    <button id = "A" onclick="playa()" style = "padding:30px 30px">A</button>
+    <button id = "B" onclick="playb()" style = "padding:30px 30px">B</button>
+    <button id = "C" onclick="playc()" style = "padding:30px 30px">C</button>
+    <button id = "D" onclick="playd()" style = "padding:30px 30px">D</button>
+    <button id = "F" onclick="playf()" style = "padding:30px 30px">F</button>
+    <!-- <button id = "G" onclick="playg()">G</button> -->
+    <!-- <button id = "H" onclick="playh()">H</button> -->
+     <!-- <button id = "J" onclick="playj()">J</button>  -->
+    <!-- <button id = "K" onclick="playk()">K</button>  -->
+
+    <script src ="client.js"></script>
+
+     <!-- <button onclick ="stopservo()">stop servos</button> -->
+     <!-- <button onclick ="ledon()" class = "ledon">Led on</button>  -->
+     <!-- <button onclick ="ledoff()" class = "ledoff">Led off</button> -->
+    <style>
+    .ledon{
+     background-color:green;
+     padding : 60px 60px;
+    }
+    .ledoff{
+     background-color :red;
+     padding : 60px 60px;
+
+    }
+    </style>
+</body>
+</html>
